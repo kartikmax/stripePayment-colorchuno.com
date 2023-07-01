@@ -1,0 +1,69 @@
+.checkout {
+  background-color: #f0e2e2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.checkout h2 {
+  margin-bottom: 10px;
+}
+
+.checkout ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.checkout li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkout li button {
+  margin-left: 10px;
+}
+
+.checkout p {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card_quantity {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  margin-bottom: 10px;
+}
+
+.card_quantity button {
+  width: 50px;
+  height: 30px;
+}
+
+.card_quantity span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.card_button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 19px;
+  background-color: #f7f4f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  transform: scale(1.008);
+  background-color: #f7f4f1;
+}
+
+/* Rest of the CSS code */
